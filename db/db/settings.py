@@ -77,13 +77,14 @@ WSGI_APPLICATION = "db.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
+DB_NAME="mongodb+srv://mangodb:mufees123@cluster0.llwlopw.mongodb.net/?retryWrites=true&w=majority"
 
 DATABASES = {
     "default": {
         "ENGINE": "djongo",
         "CLIENT": {
-            "host":"mongodb+srv://mangodb:Patrick@989@cluster0.llwlopw.mongodb.net/?retryWrites=true&w=majority",
-            "name":"Mydb",
+            "host":"mongodb+srv://mangodb:mufees123@cluster0.llwlopw.mongodb.net/?retryWrites=true&w=majority",
+            "name":"MyMango",
             "authMechanism":"SCRAM-SHA-1"
         }
     }
